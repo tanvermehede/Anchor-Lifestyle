@@ -1,0 +1,23 @@
+CREATE TABLE sellproductlist (
+    	invoiceno varchar(50),
+	todaydate varchar(50),
+	productname varchar(50),
+	quantity varchar(50),
+	rate varchar(50),
+	discountpercent varchar(50),
+	discountprice varchar(50),
+	price varchar(50)
+);
+CREATE TABLE customerinfo (
+    	invoiceno varchar(50),
+	todaydate varchar(50),
+	customername varchar(50),
+	phonenumber varchar(50),
+	billingaddress varchar(50),
+	totalquantity varchar(50),
+	totalprice varchar(50),
+	totaldiscount varchar(50),
+	netamount varchar(50),
+	paidamount varchar(50),
+	returnamount varchar(50)
+);
